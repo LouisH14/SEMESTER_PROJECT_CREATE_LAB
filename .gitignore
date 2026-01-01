@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.code-workspace
+
+# LaTeX compilation
+*.aux
+*.log
+*.pdf
+Rapport_LaTeX.pdf
+*.bbl
+*.blg
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+
+# Data and Results (generated)
+results/
+data/
+*.csv
+*.json
+ID_Result_*
+performance_test_*
+Calibration_*.json
+
+# OS
+Thumbs.db
+.DS_Store
+*.lnk
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# Hardware communication logs
+*.serial.log
+port.log
+
+# Jupyter Notebooks (if added later)
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment files
+.env
+.env.local
