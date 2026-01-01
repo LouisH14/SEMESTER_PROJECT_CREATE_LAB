@@ -33,6 +33,19 @@ See `INSTALLATION.md` for detailed setup instructions and troubleshooting.
 
 ---
 
+## Technical Report
+
+The complete technical report with methodology, results, and analysis is available as a PDF. The report source (LaTeX) is maintained locally and generated via Overleaf.
+
+Key sections included in the report:
+
+- System identification and transfer function analysis
+- P-controller design with stability analysis
+- Experimental validation (step response, disturbance rejection)
+- Complete discussion and conclusions
+
+---
+
 ## Python Scripts Usage
 
 ### 1. System Identification (`MotorWidebandID.py`)
@@ -136,27 +149,6 @@ The implemented P-controller (Kp = -0.5) achieves:
 - Settling time: 1.67s
 - Steady-state error: -0.11°
 - Disturbance rejection: ~1.5s recovery time for 1kg load
-
-See `Rapport_LaTeX.tex` for complete methodology and analysis.
-
----
-
-## Technical Report
-
-`Rapport_LaTeX.tex` contains the full technical documentation including:
-
-- System identification methodology
-- Controller design and stability analysis
-- Experimental results and discussion
-
-Compile with:
-
-```bash
-pdflatex Rapport_LaTeX.tex
-biber Rapport_LaTeX
-pdflatex Rapport_LaTeX.tex
-pdflatex Rapport_LaTeX.tex
-```
 
 ---
 
